@@ -1,0 +1,38 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{chemfig}
+\usepackage{geometry}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{floatflt}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemiii}{--}
+\newcommand{\ra}{$\rightarrow$ }
+\geometry{lmargin = 0.8in, rmargin = 0.8in, tmargin = 0.8in, bmargin = 0.8in}
+\date{\today}
+\author{Jakub Rádl}
+
+\makeatletter
+\let\thetitle\@title
+\let\theauthor\@author
+\makeatother
+
+\hypersetup{
+colorlinks=true,
+linkcolor=black,
+urlcolor=cyan,
+}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\begin{figure}[b]
+Toto dílo \textit{\thetitle} je licencováno pod licencí Creative Commons \href{https://creativecommons.org/licenses/by-nc/4.0/}{CC BY-NC 4.0}.
+\end{figure}
+\newpage
