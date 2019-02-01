@@ -13,9 +13,20 @@
 \usepackage{fancyhdr}
 \usepackage{tabularx}
 \usepackage{makecell}
+\usepackage{csquotes}
+\usepackage{pythontex}
+
+
+\MakeOuterQuote{"}
+
 \renewcommand{\labelitemii}{$\circ$}
 \renewcommand{\labelitemiii}{--}
 \newcommand{\ra}{$\rightarrow$ }
+\newcommand{\x}{$\times$ }
+\newcommand{\lp}[2]{#1 -- #2}
+\newcommand{\timeline}{\input{timeline}}
+
+
 \geometry{lmargin = 0.8in, rmargin = 0.8in, tmargin = 0.8in, bmargin = 0.8in}
 \date{\today}
 \author{Jakub Rádl}
@@ -31,10 +42,11 @@ linkcolor=black,
 urlcolor=cyan,
 }
 
+
 \begin{document}
 \maketitle
 \tableofcontents
 \begin{figure}[b]
-Toto dílo \textit{\thetitle} je licencováno pod licencí Creative Commons \href{https://creativecommons.org/licenses/by-nc/4.0/}{CC BY-NC 4.0}.\\ (creativecommons.org/licenses/by-nc/4.0/)
+Toto dílo \textit{\thetitle} podléhá licenci Creative Commons \href{https://creativecommons.org/licenses/by-nc/4.0/}{CC BY-NC 4.0}.\\ (creativecommons.org/licenses/by-nc/4.0/)
 \end{figure}
 \newpage
