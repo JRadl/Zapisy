@@ -8,3 +8,10 @@
 *.log
 *.blg
 *.dvi
+*.pytxcode
+*.sage
+*/timeline.tex
+
+*.ps
+
+timeline\.tex
